@@ -46,3 +46,34 @@ float_div_result = a / b  # Pembagian float
 
 print("\nFloat Operations:")
 print("Float Division:", float_div_result)  # Output: 2.5
+
+# math functions
+print("\nMath Functions:")
+print(round(3.2))  # Output: 3
+print(round(3.6))  # Output: 4
+print(abs(-20))  # Output: 20
+
+# Operator precedence
+print("\nOperator precedence:")
+print(20 - 3 * 4)  # Output: 8
+print((20 - 3) + 2**2)  # Output: 21
+print((5 + 4) * 10 / 2)  # Output: 45.0
+print(((5 + 4) * 10) / 2)  # Output: 45.0
+print((5 + 4) * (10 / 2))  # Output: 45.0
+print(5 + (4 * 10) / 2)  # Output: 25.0
+print(5 + 4 * 10 // 2)  # Output: 25
+
+# ()
+# **
+# * /
+# + -
+
+# binary
+print("\nBinary:")
+print(0b1)  # Output: 1
+print(0b10)  # Output: 2
+print(0b11)  # Output: 3
+print(0b100)  # Output: 4
+print(0b101)  # Output: 5
+print(int("0b1", 2))  # Output: 1
+print(int("0b11", 2))  # Output: 3
