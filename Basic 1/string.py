@@ -19,8 +19,7 @@ print(
 # \t = tab
 # f = f-string which much be followed by {}
 
-# width = 5
-# height = 10
+print("\nRectangle area")
 width = float(input("Please input a width: "))
 height = float(input("Please input a height: "))
 area = f"\nThe area of the rectangle is {width * height} square meters."
@@ -30,3 +29,10 @@ print(area)
 apple = "I have a apple"
 print(apple[0], apple[8:14])
 print(apple[0:14:3])
+
+print("\nHidden password")
+name = input("Enter username: ")
+password = input("Enter password: ")
+password_length = len(password)
+hidden_password = "*" * password_length
+print(f"{name} your password {hidden_password}, is {password_length} letters long")
