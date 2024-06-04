@@ -63,3 +63,17 @@ elif days == "Saturday" or "Sunday":
     print("This day is weekend")
 else:
     print(f"Today is {days}, day to work")
+
+# truthy and falsy
+print('\nTruthy and falsy')
+
+if []:
+    print("This won't print because an empty list is Falsy.")
+else:
+    print("This will print because an empty list is Falsy.")
+
+if "hello":
+    print("This will print because a non-empty string is Truthy.")
+
+# Truthy has a value
+# falsy does not have a value
