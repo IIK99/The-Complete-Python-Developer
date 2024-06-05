@@ -21,6 +21,21 @@ for i in range(5):
         continue
     print(i)  # continue 3 skipped
 
+print("\nPass")
+for i in range(5):
+    if i == 3:
+        pass
+    else:
+        print(i)   # Tidak melakukan apa-apa, hanya sebagai placeholder
+
+print('\nAnother example pass and continue')
+for i in range(5):
+    if i == 2:
+        pass  # Placeholder, tidak ada tindakan yang dilakukan
+        print("Pass executed")
+    elif i == 3:
+        continue  # Lewati iterasi ini dan lanjutkan ke iterasi berikutnya
+    print(i)
 
 # exercise tree
 print("\nExercise tree")
