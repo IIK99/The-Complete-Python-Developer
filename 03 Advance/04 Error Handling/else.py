@@ -1,8 +1,8 @@
 while True:
     print("\nElse")
     try:
-        num_1 = int(input('Masukan angka pertama untuk di bagi: '))
-        num_2 = int(input('Masukan angka kedua untuk di bagi: '))
+        num_1 = int(input("Masukan angka pertama untuk di bagi: "))
+        num_2 = int(input("Masukan angka kedua untuk di bagi: "))
         result = num_1 / num_2
     except ZeroDivisionError:
         print("Tidak bisa membagi dengan nol")

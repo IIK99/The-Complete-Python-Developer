@@ -20,7 +20,7 @@ while True:
         print(e)
     else:
         print("Hasil pembagian:", result)
-    finally: # selalu dijalankan tidak peduli true/false, dan if, else
+    finally:  # selalu dijalankan tidak peduli true/false, dan if, else
         print("Operasi pembagian selesai")
         repeat = input("Would you like to repeat? (yes/no): ").strip().lower()
         if repeat != "yes":
