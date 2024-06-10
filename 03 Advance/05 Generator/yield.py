@@ -47,3 +47,17 @@ def generator_1():
 
 for value in generator_1():
     print(value)
+
+
+print("\nGenerator Function")
+def generator_function(num):
+    for i in range(num):
+        yield i*2
+        
+# for value in generator_function(5):
+#     print(value) # uncomment for see the results, and comment g = generator_function
+    
+g = generator_function(10)
+next(g)
+next(g)
+print(next(g))
